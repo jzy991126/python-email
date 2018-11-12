@@ -116,7 +116,7 @@ def send_mail(msg):
         smtp.quit()\
 
 def selet(opnion):
-    content=input("内容：\n").split()
+    content=input("文件名或内容，代码则以空格分割文件名与type：\n").split()
     if (len(content)==1):
         content=str(content[0])
     number={
